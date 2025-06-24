@@ -9,5 +9,6 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Login' }).click();
 
   console.log("Successfully loged");
-  console.log("github triggered")
+  console.log("github triggered");
+  console.log("jenkins job")
 });
