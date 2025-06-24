@@ -8,5 +8,6 @@ test('test', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Password' }).fill('admin123');
   await page.getByRole('button', { name: 'Login' }).click();
 
-  console.log("Successfully loged")
+  console.log("Successfully loged");
+  console.log("github triggered")
 });
