@@ -11,5 +11,5 @@ test('test', async ({ page }) => {
   console.log("Successfully loged");
   console.log("github triggered");
   console.log("jenkin job");
-  console.log("jenkin push-2")
+  console.log("jenkin push")
 });
